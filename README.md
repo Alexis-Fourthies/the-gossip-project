@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Salut la fami.
 
-Things you may want to cover:
+To get the application up and running :
 
-* Ruby version
+1.Clone this repo
+2.Run '$ rails server' in your terminal
+3.Go to http://localhost:3000/ with your web browser
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Cheers

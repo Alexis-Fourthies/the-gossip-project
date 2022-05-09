@@ -1,0 +1,19 @@
+<h1>Gossip n°<%= @selected_gossip.id %></h1>
+<div>
+    <div>
+        <ul>
+            <li>
+            Créé par : <%= @selected_gossip.user.first_name %> <%= @selected_gossip.user.last_name %> le <%= @selected_gossip.created_at %>
+            </li>
+            <li>
+            <%= link_to "Voir son profil", user_profile_path(@selected_gossip.user.id) %>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h5> Titre : <%= @selected_gossip.title %> </h5>
+    </div>
+    <div>
+        <h5> Contenu : <%= @selected_gossip.content %> </h5>
+    </div>
+</div>

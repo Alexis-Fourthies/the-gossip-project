@@ -1,0 +1,11 @@
+<h1>Bienvenue</h1>
+<p>Salut à tous !</p>
+<p>Voici tous les potins !</p>
+
+<ul>
+<% @all_gossips.each do |gossip |%>
+    <li>
+        <%= gossip.user.first_name %> a dit : <%= gossip.title %> <%= link_to "Voir", gossip_details_path(gossip.id) %>
+    </li>
+<% end %>
+</ul>
